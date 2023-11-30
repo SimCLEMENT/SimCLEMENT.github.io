@@ -49,3 +49,11 @@ ul li a{
     color: #fff;
     letter-spacing: 0.1rem;
 }
+
+ul li a:hover{
+    color: #ffd358;
+    text-decoration: underline;
+}
+.menu li a{
+    text-decoration: none;
+}
