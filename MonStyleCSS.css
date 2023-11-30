@@ -28,17 +28,20 @@
     z-index: -99;
 }  
 
-p {
-    color: white;
-}
+
+
 
 .menu{
     margin: 0px;
     padding: 0px;
 }
 .header{
-    background-color: #287265;
     height: 80px;
     margin: 10px;
 }
   
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
