@@ -1,12 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 27 nov. 2023, 11:20:07
-    Author     : simon.clement
-*/
 *{
     margin: 0;
 }
@@ -26,14 +17,21 @@ and open the template in the editor.
     left: 50%;
     z-index: -100;
     transform: translate(-50%,-50%);
-    
-    
-    
-    
 }
-.header{
-    
+
+.bloc::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -99;
+    background-color: #000000e0;
+}  
+
+p {
+    color: white;
 }
+
 .menu{
     margin: 0px;
     padding: 0px;
@@ -43,6 +41,4 @@ and open the template in the editor.
     height: 80px;
     margin: 10px;
 }
-nav ul li{
-    
-}
+  
