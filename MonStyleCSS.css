@@ -72,3 +72,18 @@ ul li a:hover{
     background-attachment: fixed;
 }
 
+.fig1{
+    position: absolute;
+    left: 800px;
+    top: 20px;
+}
+
+#p1{
+    width: 500px;
+    text-align: left;
+}
+#p2{
+    width: 500px;
+    text-align: right;
+}
+
