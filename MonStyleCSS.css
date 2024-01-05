@@ -74,16 +74,18 @@ ul li a:hover{
 
 .fig1{
     position: absolute;
-    left: 800px;
-    top: 20px;
+    left: 0px;
+    top: 80px;
 }
 
-#p1{
-    width: 500px;
-    text-align: left;
-}
-#p2{
-    width: 500px;
-    text-align: right;
+.fig2{
+    position: absolute;
+    left: 1000px;
+    top: 80px;
 }
 
+.fig3{
+    position: absolute;
+    left: 2000px;
+    top: 80px;
+}
